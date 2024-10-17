@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2b2e4a;
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #f0f4f8;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+#taskInput {
+    width: 75%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    background-color: #e9ecef;
+    outline: none;
+}
+
+#addTaskBtn {
+    padding: 10px 15px;
+    background-color: #5ab9ea;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+#addTaskBtn:hover {
+    background-color: #3993d0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background-color: #2b2e4a;
+    color: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+li:hover {
+    background-color: #3e4057;
+}
+
+li span {
+    flex: 1;
+    text-align: left; 
+}
+
+li button {
+    margin-left: 10px;
+    background-color: #f85f73;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 7px 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+li button.edit-btn {
+    background-color: #ffbe76;
+}
+
+li button:hover {
+    opacity: 0.8;
+}

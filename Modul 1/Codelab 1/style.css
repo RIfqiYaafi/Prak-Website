@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.cyan {
+    background-color: cyan;
+}
+
+.black {
+    background-color: black;
+    color: white;
+}
+
+.pink {
+    background-color: pink;
+}
